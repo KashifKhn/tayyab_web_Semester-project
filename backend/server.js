@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 mongoose
-  .connect(process.env.MONOGO_DB_END_POINT)
+  .connect(process.env.MONGO_DB_END_POINT)
   .then(() => {
     console.log("Connected to MongoDB");
   })
