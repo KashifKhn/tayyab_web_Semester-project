@@ -29,12 +29,6 @@ const ShopItemList = () => {
             price={item.price}
             imgUrl={item.imgUrl}
           />
-          <ShopItem
-            key={item._id}
-            name={item.name}
-            price={item.price}
-            imgUrl={item.imgUrl}
-          />
         </>
       ))}
     </div>
